@@ -7,7 +7,6 @@
  Provides:
   [main] *.lua
   [data] toolbar_icons/**/*.png
-  [nomain] *.pdf
   **/*.dat
  About:
   # LAx_RenderBuddy
