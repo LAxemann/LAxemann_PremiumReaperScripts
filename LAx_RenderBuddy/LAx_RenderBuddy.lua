@@ -34,6 +34,9 @@ local sep = package.config:sub(1, 1)
 dofile((currentFolder or "") .. DTAV .. sep .. "runShared" ..
            (reaper.file_exists((currentFolder or "") .. DTAV .. sep .. "runShared.lua") and ".lua" or ".dat"))
 
+if not LAx_init then
+    return
+end
 ----------------------------------------------------------------------------------------
 -- Settings
 LAx_RenderBuddySettings = {}
