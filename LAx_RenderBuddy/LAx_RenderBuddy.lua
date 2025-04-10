@@ -3,7 +3,7 @@
  Author: Leon 'LAxemann' Beilmann
  REAPER: 6
  Extensions: SWS, JS_ReaScript_API
- Version: 1.01
+ Version: 1.02
  Provides:
   [main] *.lua
   [data] toolbar_icons/**/*.png
@@ -15,10 +15,8 @@
 
 --[[
  * Changelog:
-    * v1.01
-      + Fixed: Items that stretch over multiple other items could get ignored for region start time calculation
-      + Fixed: Default value for gap detection was set to 0 instead of -1
-      + Tweaked: If the project's renderpattern had he default "untitled" name, it will automatically switch to using "$regions"
+    * v1.02
+      + Tweaked: Improved sorting algorithm
 ]] ----------------------------------------------------------------------------------------
 -- Run Shared
 DTAV = _VERSION == 'Lua 5.3' and 'dta53' or 'dta'
