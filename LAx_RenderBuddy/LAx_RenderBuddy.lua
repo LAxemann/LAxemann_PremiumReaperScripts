@@ -3,7 +3,7 @@
  Author: Leon 'LAxemann' Beilmann
  REAPER: 6
  Extensions: SWS, JS_ReaScript_API
- Version: 1.02
+ Version: 1.03
  Provides:
   [main] *.lua
   [data] toolbar_icons/**/*.png
@@ -15,8 +15,8 @@
 
 --[[
  * Changelog:
-    * v1.02
-      + Tweaked: Improved sorting algorithm
+    * v1.03
+      + Fixed: Functionality could break if regular markers were present within the project
 ]] ----------------------------------------------------------------------------------------
 -- Run Shared
 DTAV = _VERSION == 'Lua 5.3' and 'dta53' or 'dta'
