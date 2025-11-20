@@ -3,7 +3,7 @@
  Author: Leon 'LAxemann' Beilmann
  REAPER: 6
  Extensions: SWS, JS_ReaScript_API, ReaImGui
- Version: 2.01
+ Version: 2.02
  Provides:
   [main] *.lua
   [data] toolbar_icons/**/*.png
@@ -16,10 +16,8 @@
 
 --[[
  * Changelog:
-    * v2.01
-      + Fixed: RenderBuddy could sometimes throw an error when Rendering multiple folders via the Manager
-      + Fixed: "Only Create Regions" Action was not working
-      + Tweaked: "Only Create Regions" can now create Regions for multiple selected folders or tracks
+    * v2.02
+      + Tweaked: The Manager should now be able to properly switch between projects
 ]] ----------------------------------------------------------------------------------------
 -- Run Shared
 DTAV = _VERSION == 'Lua 5.3' and 'dta53' or 'dta'
