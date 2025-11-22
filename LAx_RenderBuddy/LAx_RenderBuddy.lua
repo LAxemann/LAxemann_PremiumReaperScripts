@@ -3,7 +3,7 @@
  Author: Leon 'LAxemann' Beilmann
  REAPER: 6
  Extensions: SWS, JS_ReaScript_API, ReaImGui
- Version: 2.03
+ Version: 2.04
  Provides:
   [main] *.lua
   [data] toolbar_icons/**/*.png
@@ -16,8 +16,8 @@
 
 --[[
  * Changelog:
-    * v2.03
-      + Tweaked: Added: Per-project Manager position (Toggleable via settings)
+    * v2.04
+      + Fixed: Manager Window would reset in unnamed projects
 ]] ----------------------------------------------------------------------------------------
 -- Run Shared
 DTAV = _VERSION == 'Lua 5.3' and 'dta53' or 'dta'
