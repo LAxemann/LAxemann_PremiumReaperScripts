@@ -3,7 +3,7 @@
  Author: Leon 'LAxemann' Beilmann
  REAPER: 6
  Extensions: SWS, JS_ReaScript_API, ReaImGui
- Version: 1.07
+ Version: 1.46
  Provides:
   [main] *.lua
   **/*.dat
@@ -14,9 +14,6 @@
 
 --[[
  * Changelog:
-    * v1.07
-      + Added: LAx_Shared_Utility
-      + Added: LAx_Shared_Styles
-      + Added: License Manager GUI
-      + Added: getExtStateValueStr to LAx_Shared_ExtState
+    * v1.46
+      + Tweaked: RenderBuddy 3 rollout
 ]]

@@ -1,6 +1,7 @@
 -- @noindex
 ----------------------------------------------------------------------------------------
 -- Run Shared
+SkipLicenseGui = false
 DTAV = _VERSION == 'Lua 5.3' and 'dta53' or 'dta'
 local currentFolder = (debug.getinfo(1).source:match("@?(.*[\\|/])"))
 currentFolder = currentFolder:gsub("\\", "/")
@@ -23,4 +24,4 @@ end
 
 ----------------------------------------------------------------------------------------
 -- Run target file
-runFile(reaper.GetExtState("LAx_RenderBuddy", "Directory") .. DTAV .. sep .. "settings", true)
+runFile(reaper.GetExtState("LAx_RenderBuddy", "Directory") .. DTAV .. sep .. "settings" .. sep .. "settings", true)
