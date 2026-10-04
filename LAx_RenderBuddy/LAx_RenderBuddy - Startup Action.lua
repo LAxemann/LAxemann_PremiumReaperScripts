@@ -1,6 +1,7 @@
 -- @noindex
 ----------------------------------------------------------------------------------------
 -- Run Shared
+IS_STARTUP_ACTION = true
 SkipLicenseGui = true
 DTAV = _VERSION == 'Lua 5.3' and 'dta53' or 'dta'
 local currentFolder = (debug.getinfo(1).source:match("@?(.*[\\|/])"))
