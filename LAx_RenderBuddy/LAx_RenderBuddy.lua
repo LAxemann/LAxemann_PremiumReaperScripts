@@ -3,7 +3,7 @@
  Author: Leon 'LAxemann' Beilmann
  REAPER: 6
  Extensions: SWS, JS_ReaScript_API, ReaImGui
- Version: 3.44
+ Version: 3.46
  Provides:
   [main] *.lua
   [data] toolbar_icons/**/*.png
@@ -17,12 +17,8 @@
 
 --[[
  * Changelog:
-    * v3.44
-	  + Added: Variables/Variable Switches, allowing you to change file naming throughout the same track.
-      + Tweaked: Manager: The wildcards button now supports adding Variables existing inside the project
-      + Tweaked: Manager: The render directory now also has a button for inserting wildcards.
-      + Tweaked: General improvements to the render pipeline's robustness
-      + Fixed: RenderBuddy could fail to render if items with a length of 0 were present (usually created by other broken scripts). Implemented a failsafe.
+    * v3.46
+	  + Fixed: "Enter License" action was not working (thanks to daoeaudio!) 
 ]] ----------------------------------------------------------------------------------------
 
 SkipLicenseGui = false
